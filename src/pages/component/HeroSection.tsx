@@ -10,12 +10,12 @@ export default function HeroSection() {
             <div className="flex flex-col justify-center items-center w-full gap-3">
                 <h2 className=" text-4xl font-bold">Seja Bem Vindo !</h2>
                 <p className="w-[42rem] text-center font-mono">
-                  Olá, sou Kaique Dias, um desenvolvedor apaixonado pelo que faço. Meu
-                  compromisso vai além do simples código: acredito em valorizar o
+                  Olá, sou Kaique Dias, um desenvolvedor apaixonado pelo que faço. <br />   
+                  Meu compromisso vai além do simples código: acredito em valorizar o
                   processo, entender o negócio e, principalmente, criar um código limpo
                   e bem estruturado.
                 </p>
-                <button className={"w-[20rem] h-[2rem] rounded-sm flex flex-row justify-center font-semibold items-center gap-4 bg-[darkblue] "+inter.className}><LinkedinLogo className="fill-[white]" size="1rem"/>Conheça mais em meu LinkedIn</button>
+                <a href="https://www.linkedin.com/in/kaique-dias-aa1055212/" target="blank" className={"w-[20rem] h-[2rem] rounded-sm flex flex-row justify-center font-semibold items-center transition duration-300  gap-4 bg-[darkblue] hover:bg-[#191970] "+inter.className}><LinkedinLogo className="fill-[white]" size="1rem"/>Conheça mais em meu LinkedIn</a>
             </div>
           </div>
       </div>
