@@ -1,0 +1,19 @@
+.typed {
+    border-right: 2px solid whitesmoke;
+    animation: glow 0.5s infinite;
+}
+
+
+@keyframes glow {
+    0% {
+        border-right: 2px solid whitesmoke;
+    }
+
+    50% {
+        border-right: 2px solid rgba(245, 245, 245, 0.608);
+    }
+
+    100% {
+        border-right: 2px solid whitesmoke;
+    }
+}
