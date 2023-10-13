@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section>
       <div className="flex-row ">
-          <div className="h-[28rem] flex flex-col justify-center items-start dark:border-2 dark:border-sky-200 dark:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
+          <div className="h-[28rem] flex flex-col justify-center items-start">
             <div className="flex flex-col justify-center items-center w-full gap-8">
                 <TitleWithTypeAnimation title="Seja Bem Vindo !"/>
                 <p className={"w-[28rem] text-justify font-mono"}>
