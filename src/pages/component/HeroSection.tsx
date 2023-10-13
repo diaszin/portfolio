@@ -16,7 +16,7 @@ export default function HeroSection() {
                   processo, entender o negócio e, principalmente, criar um código limpo
                   e bem estruturado.
                 </p>
-                <a href="https://www.linkedin.com/in/kaique-dias-aa1055212/" target="blank" className={"w-[20rem] h-[2rem] rounded-sm flex flex-row justify-center font-semibold items-center transition duration-300  gap-4 bg-[darkblue] hover:bg-[#191970] "+inter.className}><LinkedinLogo className="fill-[white]" size="1rem"/>Conheça mais em meu LinkedIn</a>
+                <a href="https://www.linkedin.com/in/kaique-dias-aa1055212/" target="blank" className={"flex flex-row justify-center my-5 py-4 px-[6rem]  rounded-lg font-bold cursor-pointer items-center transition duration-300  gap-4 bg-[darkblue] hover:bg-[#191970] "+inter.className}><LinkedinLogo className="fill-[white]" size="1rem"/>Conheça mais em meu LinkedIn</a>
             </div>
           </div>
       </div>
