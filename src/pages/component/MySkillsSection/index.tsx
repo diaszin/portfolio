@@ -59,7 +59,7 @@ export default function MySkillsSection() {
         <div className="grid grid-cols-3 items-center gap-7">
           <MyAllSkills skills={mySkillsList} />
         </div>
-        <a className="flex justify-center items-center gap-2 my-5 py-4 px-[6rem] transition duration-300 bg-blue-950 rounded-lg font-bold cursor-pointer hover:bg-[darkblue]">
+        <a href="/Curriculo de Kaique Dias Pereira.pdf" download={true} className="flex justify-center items-center gap-2 my-5 py-4 px-[6rem] transition duration-300 bg-blue-950 rounded-lg font-bold cursor-pointer hover:bg-[darkblue]">
           Baixar Curriculo
           <svg
             xmlns="http://www.w3.org/2000/svg"
